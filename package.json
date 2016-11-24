@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "freeCodeCamp-Projects-Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cirych/freeCodeCamp-Projects-Api.git"
+  },
+  "keywords": [
+    "freeCodeCamp"
+  ],
+  "author": "Cirych",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cirych/freeCodeCamp-Projects-Api/issues"
+  },
+  "homepage": "https://github.com/Cirych/freeCodeCamp-Projects-Api#readme",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "foreman": "2.0.0"
+  }
+}
