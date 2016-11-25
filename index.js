@@ -4,7 +4,7 @@ const {PORT} = process.env
 const headerParser = (req, res) => {
 	let ua = req.headers["user-agent"]
 	let result = {
-		ipaddress: req.connection.remoteAddress.split(":").pop(),
+		ipaddress: req.headers['x-forwarded-for'] || req.connection.remoteAddress.split(":").pop(),
 		language: req.headers["accept-language"].split(',')[0],
 		software: ua.slice(ua.indexOf('(')+1,ua.indexOf(')'))
 	}
