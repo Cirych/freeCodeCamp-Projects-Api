@@ -20,10 +20,11 @@
   },
   "homepage": "https://github.com/Cirych/freeCodeCamp-Projects-Api#readme",
   "engines": {
-    "node": "6.9.1"
+    "node": "7.2.0"
   },
   "dependencies": {
     "express": "4.14.0",
-    "foreman": "2.0.0"
+    "foreman": "2.0.0",
+    "node-fetch": "1.6.3"
   }
 }
