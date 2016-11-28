@@ -7,3 +7,5 @@
 [URL Shortener Microservice](https://github.com/Cirych/freeCodeCamp-Projects-Api/tree/urlshortener)
 
 [Image Search Abstraction Layer](https://github.com/Cirych/freeCodeCamp-Projects-Api/tree/imagesearch)
+
+[File Metadata Microservice](https://github.com/Cirych/freeCodeCamp-Projects-Api/tree/filemetadata)
