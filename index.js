@@ -15,11 +15,21 @@ const queryUrl = ({q, num = 10, start = 1}) => url.format({
 	query: {q, num, start, cx: GG_CS_ID, key: GG_API_KEY}
 })
 
+const extractImg = item => {
+	let result;
+	try {
+		result = item.pagemap.cse_image[0].src
+	} catch(e) {
+		result = ''
+	}
+	return result
+}
+
 const sendResponse = ({json, response}) => {
-	response.json(json.items.map(i => ({
-		title: i.title,
-		link: i.link,
-		src: i.pagemap//i.pagemap.cse_image[0].src
+	response.json(json.items.map(item => ({
+		title: item.title,
+		link: item.link,
+		src: extractImg(item)
 	})))
 }
 
