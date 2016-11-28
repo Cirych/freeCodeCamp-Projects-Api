@@ -16,6 +16,7 @@ const queryUrl = ({q, num = 10, start = 1}) => url.format({
 })
 
 const sendResponse = ({json, response}) => {
+	console.log(json)
 	response.json(json.items.map(i => ({title: i.title, link: i.link, src: i.pagemap.cse_image[0].src})))
 }
 
