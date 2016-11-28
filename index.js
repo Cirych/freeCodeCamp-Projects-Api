@@ -19,7 +19,7 @@ const sendResponse = ({json, response}) => {
 	response.json(json.items.map(i => ({
 		title: i.title,
 		link: i.link,
-		src: i.pagemap && i.pagemap.cse_image[0] && i.pagemap.cse_image[0].src
+		src: i.pagemap//i.pagemap.cse_image[0].src
 	})))
 }
 
