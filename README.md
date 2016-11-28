@@ -1,7 +1,7 @@
 # (:fire:) freeCodeCamp-Projects-Api
 
-## Image Search Abstraction Layer
+## File Metadata Microservice
 
-[FCC Challenge](https://www.freecodecamp.com/challenges/image-search-abstraction-layer)
+[FCC Challenge](https://www.freecodecamp.com/challenges/file-metadata-microservice)
 
-[Heroku App](https://fccimagesearchlayer.herokuapp.com/)
+[Heroku App](https://fccfilemetadatamicroservice.herokuapp.com/)
